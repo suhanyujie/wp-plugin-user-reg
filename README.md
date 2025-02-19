@@ -37,5 +37,5 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 ## ref
 - https://developer.wordpress.org/reference/classes/wpdb
 - 人人都能学会的 WordPress 实战课 https://www.easywpbook.com/plugin
-
+- WordPress中文手册 https://www.dba.cn/book/wordpress/
 
