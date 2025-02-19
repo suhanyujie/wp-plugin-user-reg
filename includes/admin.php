@@ -3,20 +3,6 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-// Add an admin page to view registrations
-function urf_admin_page() {
-    add_menu_page(
-        'User Registrations',
-        'Registrations',
-        'manage_options',
-        'user-registrations',
-        'urf_admin_page_content',
-        'dashicons-list-view',
-        6
-    );
-}
-add_action('admin_menu', 'urf_admin_page');
-
 // Display registrations in the admin page
 function urf_admin_page_content() {
     include URF_PLUGIN_DIR . 'templates/admin-page.php';
@@ -53,11 +39,11 @@ add_action('admin_post_urf_export_csv', 'urf_export_csv');
 function urf_admin_menu() {
     // 主菜单：注册管理
     add_menu_page(
-        '注册管理',
-        '注册管理',
+        'User Registrations',
+        'Registrations',
         'manage_options',
         'user-registrations',
-        'urf_registrations_page',
+        'urf_admin_page_content',
         'dashicons-list-view',
         6
     );

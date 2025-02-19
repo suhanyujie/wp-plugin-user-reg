@@ -38,25 +38,25 @@ function urf_create_table() {
 
     // 添加默认表单
     $default_form = array(
-        'title' => '默认注册表单',
-        'description' => '基础的用户注册表单',
+        'title' => 'default form',
+        'description' => 'basic form',
         'fields' => json_encode([
             [
                 'type' => 'text',
                 'name' => 'name',
-                'label' => '姓名',
+                'label' => '名前',
                 'required' => true
             ],
             [
                 'type' => 'email',
                 'name' => 'email',
-                'label' => '邮箱',
+                'label' => 'メール',
                 'required' => true
             ],
             [
                 'type' => 'tel',
                 'name' => 'phone',
-                'label' => '电话',
+                'label' => '電話番号',
                 'required' => true
             ]
         ])
