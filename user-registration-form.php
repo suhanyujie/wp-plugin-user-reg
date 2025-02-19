@@ -1,10 +1,16 @@
 <?php
 /*
-Plugin Name: User Registration Form
-Description: A simple plugin to handle user registration and track sign-ups.
-Version: 1.0
-Author: suhanyujie
-*/
+ * Plugin Name: User Registration Form
+ * Plugin URI: https://github.com/suhanyujie/wp-plugin-user-reg
+ * Description: contact form plugin. user registration. activity user record. handle user registration 
+ * Author: [suhanyujie](https://github.com/suhanyujie)
+ * Author URI: https://github.com/suhanyujie
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Version: 0.1.2
+ * Requires at least: 6.7
+ * Requires PHP: 8.2
+ */
 
 // Prevent direct access to the file
 if (!defined('ABSPATH')) {
