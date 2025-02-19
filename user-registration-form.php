@@ -9,7 +9,7 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Version: 0.1.2
  * Requires at least: 6.7
- * Requires PHP: 8.2
+ * Requires PHP: 7.4
  */
 
 // Prevent direct access to the file
