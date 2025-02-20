@@ -51,8 +51,8 @@ function urf_admin_menu() {
     // 子菜单：注册列表
     add_submenu_page(
         'user-registrations',
-        '注册列表',
-        '注册列表',
+        'registrated user list',
+        'registrated user list',
         'manage_options',
         'user-registrations',
         'urf_registrations_page'
@@ -61,8 +61,8 @@ function urf_admin_menu() {
     // 子菜单：表单管理
     add_submenu_page(
         'user-registrations',
-        '表单管理',
-        '表单管理',
+        'form 管理',
+        'form 管理 ',
         'manage_options',
         'urf-forms',
         'urf_forms_page'

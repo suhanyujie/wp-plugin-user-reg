@@ -1,3 +1,48 @@
+
+# user registration plugin
+活動について ユーザーが登録することができる。
+
+## 使用する
+### install
+* この repo を zip ファイルにする
+* この zip ファイルを WordPress の プラグイン にアップロードする
+* プラグインを有効化する
+* プラグインの設定画面で、必要な設定を行う
+
+### form を設定
+* プラグインの設定画面で、必要な設定を行う
+
+![](./docs/image1/admin-form1.png)
+
+文章の中で使用できます：
+
+![](./docs/image1/admin-form-template-using1.png)
+
+コンポを検索する：
+
+![](./docs/image1/admin-form-template-using2.png)
+
+使用するフォームを選択してください:
+
+![](./docs/image1/admin-form-template-using3.png)
+
+コンテンツを編集したら保存または公開します
+
+![](./docs/image1/admin-form-template-using4.png)
+
+その後、フロントページを表示でき、フォームが正しく表示されます
+
+![](./docs/image1/admin-form-template-using5.png)   
+
+
+## ref
+- https://developer.wordpress.org/reference/classes/wpdb
+- 人人都能学会的 WordPress 实战课 https://www.easywpbook.com/plugin
+- WordPress中文手册 https://www.dba.cn/book/wordpress/
+
+## other
+
+```
 === User Registration Form ===
 Contributors: suhanyujie | [HomePage](https://github.com/suhanyujie/wp-plugin-user-reg)
 Tags: 登録フォーム, registration
@@ -30,12 +75,4 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Frequently Asked Questions ==
 
-# user registration plugin
-活動について ユーザーが登録することができる。
-
-
-## ref
-- https://developer.wordpress.org/reference/classes/wpdb
-- 人人都能学会的 WordPress 实战课 https://www.easywpbook.com/plugin
-- WordPress中文手册 https://www.dba.cn/book/wordpress/
-
+```

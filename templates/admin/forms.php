@@ -4,12 +4,12 @@ $forms = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}user_registration_form
 ?>
 
 <div class="wrap">
-    <h1 class="wp-heading-inline">表单管理</h1>
-    <a href="<?php echo admin_url('admin.php?page=urf-forms&action=new'); ?>" class="page-title-action">添加新表单</a>
+    <h1 class="wp-heading-inline">form 管理</h1>
+    <a href="<?php echo admin_url('admin.php?page=urf-forms&action=new'); ?>" class="page-title-action">add new form</a>
 
     <?php if (isset($_GET['message']) && $_GET['message'] === 'success'): ?>
         <div class="notice notice-success is-dismissible">
-            <p>表单保存成功！</p>
+            <p>form saved ok！</p>
         </div>
     <?php endif; ?>
 
@@ -17,11 +17,11 @@ $forms = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}user_registration_form
         <thead>
             <tr>
                 <th>ID</th>
-                <th>标题</th>
-                <th>描述</th>
-                <th>字段数量</th>
-                <th>创建时间</th>
-                <th>操作</th>
+                <th>title</th>
+                <th>description</th>
+                <th>form item number</th>
+                <th>create time</th>
+                <th>operation</th>
             </tr>
         </thead>
         <tbody>
